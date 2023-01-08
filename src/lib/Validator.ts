@@ -1,8 +1,4 @@
-import { get } from "svelte/store";
-import { errors, password } from "./store";
-
-// export let password = "";
-export let type = "text";
+import { password } from "./store";
 
 export const handleInput = (e: Event & { currentTarget: HTMLInputElement }) => {
   password.set(e.currentTarget.value);
