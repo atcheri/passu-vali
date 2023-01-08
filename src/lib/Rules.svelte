@@ -4,7 +4,7 @@
 
 <div>
   <ul>
-    {#each $errors as error, key}
+    {#each $errors as error}
       <li>{error.valid} {error.text}</li>
     {/each}
   </ul>

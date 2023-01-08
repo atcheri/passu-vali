@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { get } from "svelte/store";
   import Rules from "./Rules.svelte";
   import { password } from "./store";
   import { type, handleInput, validate } from "./Validator";
@@ -7,7 +8,7 @@
 <form on:submit|preventDefault={validate}>
   <input
     {type}
-    value={password}
+    value={get(password)}
     name="password"
     id="password"
     on:input={handleInput}

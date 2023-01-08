@@ -1,5 +1,7 @@
+import { get } from "svelte/store";
 import { errors, password } from "./store";
 
+// export let password = "";
 export let type = "text";
 
 export const handleInput = (e: Event & { currentTarget: HTMLInputElement }) => {
@@ -10,12 +12,4 @@ export const validate = () =>
   // event: Event & { currentTarget: EventTarget & HTMLFormElement }
   {
     console.log("submitting password", password);
-    errors.update((prevErrors) => {
-      return prevErrors.map((err) => {
-        if (err.key === "lowercase") {
-          err.valid = !err.valid;
-        }
-        return err;
-      });
-    });
   };
