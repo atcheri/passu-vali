@@ -10,14 +10,14 @@
 
 <form on:submit|preventDefault={validate}>
   <div class="mb-3">
-    <Label for="password" class="mb-2">Enter your <b>Strong</b> Password</Label>
+    <Label for="password" class="mb-2"><b>Supercharge</b> your Password</Label>
     <Input
       id="password"
       type={show ? "text" : "password"}
       on:input={handleInput}
       value={get(password)}
       name="password"
-      placeholder="Make it strong!"
+      placeholder="And make it strong!"
       size="lg"
     >
       <button
