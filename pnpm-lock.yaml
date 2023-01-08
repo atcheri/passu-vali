@@ -12,6 +12,7 @@ specifiers:
   postcss-load-config: ^4.0.1
   svelte: ^3.54.0
   svelte-check: ^2.10.0
+  svelte-icons: ^2.1.0
   svelte-preprocess: ^4.10.7
   tailwindcss: ^3.1.5
   tslib: ^2.4.1
@@ -20,6 +21,7 @@ specifiers:
   zod: ^3.20.2
 
 dependencies:
+  svelte-icons: 2.1.0
   zod: 3.20.2
 
 devDependencies:
@@ -1048,6 +1050,10 @@ packages:
     dependencies:
       svelte: 3.55.0
     dev: true
+
+  /svelte-icons/2.1.0:
+    resolution: {integrity: sha512-rHPQjweEc9fGSnvM0/4gA3pDHwyZyYsC5KhttCZRhSMJfLttJST5Uq0B16Czhw+HQ+HbSOk8kLigMlPs7gZtfg==}
+    dev: false
 
   /svelte-preprocess/4.10.7_sszq2jtn34a6yxhgyttnzzfolm:
     resolution: {integrity: sha512-sNPBnqYD6FnmdBrUmBCaqS00RyCsCpj2BG58A1JBswNF7b0OKviwxqVrOL/CKyJrLSClrSeqQv5BXNg2RUbPOw==}
