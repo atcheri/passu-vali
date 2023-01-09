@@ -2,7 +2,7 @@
   import Validator from "./lib/Validator.svelte";
 </script>
 
-<main class="flex justify-center items-center container mx-auto h-screen">
+<main class="flex justify-center items-center container mx-auto md:h-screen">
   <div class="flex flex-col-reverse md:flex-row gap-6 items-center">
     <div
       class="flex flex-wrap content-center justify-center rounded-r-md"
